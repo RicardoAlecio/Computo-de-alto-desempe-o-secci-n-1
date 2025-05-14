@@ -6,7 +6,7 @@
 
 ## Introducción
 
-El cómputo de alto desempeño (HPC, por sus siglas en inglés) es fundamental en campos como la ciencia de datos, simulaciones físicas, inteligencia artificial, genómica y modelado climático. Dado el costo elevado de las soluciones comerciales, muchas organizaciones recurren a herramientas *open source* para construir y administrar sus entornos HPC.
+El cómputo de alto desempeño (HPC, por sus siglas en inglés) es fundamental en campos como la ciencia de datos, simulaciones físicas, inteligencia artificial, genómica y modelado climático. Dado el costo elevado de las soluciones comerciales, muchas organizaciones recurren a herramientas *open source* para construir y administrar sus entornos HPC. 
 
 Este informe presenta una selección de herramientas de código abierto clave que cubren diferentes aspectos del ecosistema HPC: sistemas operativos, administración de clústeres, programación paralela, gestión de trabajos, almacenamiento, monitoreo y portabilidad. El objetivo es proporcionar una visión general técnica y práctica de las soluciones más utilizadas y confiables en la comunidad científica y tecnológica.
 
