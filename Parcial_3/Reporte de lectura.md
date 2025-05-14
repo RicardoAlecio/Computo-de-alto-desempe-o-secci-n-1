@@ -92,5 +92,3 @@ Estas citas resumen los principios fundamentales de Lean, DevOps y gestión de c
 
 *The Phoenix Project* es mucho más que una novela de negocios. Es una obra que ofrece valiosas lecciones sobre cómo gestionar la tecnología, las operaciones y la cultura organizacional en un mundo cada vez más complejo. Al integrar principios de DevOps y Lean, el libro muestra cómo las empresas pueden superar los desafíos operativos y crear una cultura de mejora continua, colaboración y entrega de valor.
 
-Recomiendo esta lectura no solo a profesionales de TI, sino también a líderes empresariales que deseen comprender la importancia estratégica de la tecnología en el éxito de sus organizaciones y cómo pueden aplicar estos principios para lograr una transformación efectiva.
-
