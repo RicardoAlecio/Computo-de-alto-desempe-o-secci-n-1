@@ -30,7 +30,6 @@ El mensaje subyacente de *The Phoenix Project* es que el cambio organizacional e
 
 * **Sarah, Chris, Wes y otros:** Personajes que representan diversas áreas clave de la empresa, como seguridad, desarrollo, calidad y operaciones. Estos personajes aportan su perspectiva a los desafíos cotidianos a los que se enfrenta la empresa, y a menudo ilustran la importancia de la comunicación y la colaboración entre departamentos.
 
----
 
 ## **Temas centrales y conceptos clave**
 
