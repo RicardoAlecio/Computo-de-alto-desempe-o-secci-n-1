@@ -1,30 +1,34 @@
-name: Publicar en GitHub Pages
+name: Ejecutar script y publicar en GitHub Pages
 
 on:
-  push:
-    branches: [main]
+push:
+branches: [main]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+build:
+runs-on: ubuntu-latest
 
-    steps:
-    - uses: actions/checkout@v3
+yaml
+Copiar
+Editar
+steps:
+- name: Clonar repositorio
+  uses: actions/checkout@v3
 
-    - name: Configurar Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
+- name: Configurar Python
+  uses: actions/setup-python@v4
+  with:
+    python-version: '3.10'
 
-    - name: Instalar dependencias
-      run: pip install -r requirements.txt
+- name: Instalar dependencias
+  run: pip install -r requirements.txt
 
-    - name: Ejecutar script
-      run: python main.py
+- name: Ejecutar script Python
+  run: python main.py
 
-    - name: Publicar en GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: .
-        publish_branch: gh-pages
+- name: Publicar en gh-pages
+  uses: peaceiris/actions-gh-pages@v3
+  with:
+    github_token: ${{ secrets.GITHUB_TOKEN }}
+    publish_dir: .
+    publish_branch: gh-pages
