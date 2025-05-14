@@ -1,36 +1,6 @@
-name: Ejecutar script y publicar en GitHub Pages
-
-on:
-push:
-branches: [main]
-
-jobs:
-build:
-runs-on: ubuntu-latest
-
-yaml
-Copiar
-Editar
-steps:
-- name: Clonar repositorio
-  uses: actions/checkout@v3
-
-- name: Configurar Python
-  uses: actions/setup-python@v4
-  with:
-    python-version: '3.10'
-
-- name: Instalar dependencias
-  run: pip install -r requirements.txt
-
-- name: Ejecutar script Python
-  run: python main.py
-
-- name: Publicar en gh-pages
-  uses: peaceiris/actions-gh-pages@v3
-  with:
-    github_token: ${{ secrets.GITHUB_TOKEN }}
-    publish_dir: .
-    publish_branch: gh-pages
-
-    git commit -m "Corrige errores en el archivo build.yml"
+<html>
+  <body>
+    <h1>Gráfico generado</h1>
+    <img src="grafica.png" width="700"/>
+  </body>
+</html>

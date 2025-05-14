@@ -1,2 +1,3 @@
-kagglehub[pandas-datasets]
+pandas
 matplotlib
+kagglehub
